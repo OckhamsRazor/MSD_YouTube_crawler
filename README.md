@@ -2,7 +2,7 @@
 A crawler to fetch YouTube view-counts for the Million Song Dataset (MSD).
 `\*.npy` files for now are crawled data of songs from albums with size 5, i.e., `album_lens[5]`, which include 10,285 albums and 51,425 (10,285\*5) songs.
 
-In the cleaned version considered YouTube view-counts availability (`track_id_by_alb.npy`), there are 7,807 albums and 31,562 songs. In another cleaned version further considered album release time (from MSD), there are 3,384 albums and 13,648 songs [details](https://docs.google.com/presentation/d/1VLGojgyecFJZFui7-MGZDivSfUBuewQIlMK4v4_po2s/edit?usp=sharing).
+In the cleaned version considering YouTube view-counts availability (`track_id_by_alb.npy`), there are 7,807 albums and 31,562 songs. In another cleaned version further considering album release time (from MSD), there are 3,384 albums and 13,648 songs [details](https://docs.google.com/presentation/d/1VLGojgyecFJZFui7-MGZDivSfUBuewQIlMK4v4_po2s/edit?usp=sharing).
 
 ## Prerequisites
 1. Download the MSD summary file from [Here](https://labrosa.ee.columbia.edu/millionsong/sites/default/files/AdditionalFiles/msd_summary_file.h5).
